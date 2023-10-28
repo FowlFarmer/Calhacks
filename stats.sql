@@ -9,5 +9,6 @@ CREATE TABLE timestats (
     userID INTEGER,
     startTime TIMESTAMP,
     endTime TIMESTAMP,
+    avgFluc TIME, 
     duration TIME
 );
